@@ -91,6 +91,13 @@ main {
   background-repeat: no-repeat;
 }
 
+@media (min-width: 768px) {
+  main {
+    padding: 2rem 1rem 4rem;
+    gap: 2rem;
+  }
+}
+
 /* ── Video ── */
 .video-wrapper {
   width: 100%;
