@@ -100,6 +100,7 @@ main {
 
 /* ── Video ── */
 .video-wrapper {
+  position: relative;
   width: 100%;
   max-width: 300px;
   border-radius: 12px;
@@ -111,6 +112,33 @@ main {
 .video-wrapper video {
   width: 100%;
   display: block;
+}
+
+.sound-btn {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background: rgba(0, 0, 0, 0.55);
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #fff;
+  transition: background 0.2s ease;
+  padding: 0;
+}
+
+.sound-btn:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.sound-btn svg {
+  width: 20px;
+  height: 20px;
 }
 
 /* ── CTA Section ── */
